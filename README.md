@@ -10,7 +10,7 @@ Siapapun yang ingin berkontribusi dipersilahkan.
 
 - Selasa
 
-  1. Rentang Waktu
+  1. [Rentang Waktu](worksheet/selasa/ws1/)
   2. PTML
   3. Sorting
   4. Urutan Playlist
