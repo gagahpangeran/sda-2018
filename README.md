@@ -11,7 +11,7 @@ Siapapun yang ingin berkontribusi dipersilahkan.
 - Selasa
 
   1. [Rentang Waktu](worksheet/selasa/ws1/)
-  2. PTML
+  2. [PTML](worksheet/selasa/ws2/)
   3. Sorting
   4. Urutan Playlist
   5. Ayat Bayangan
