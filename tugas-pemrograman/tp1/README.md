@@ -44,7 +44,140 @@ penasaran dan ingin memodelkan beberapa hal, yaitu:
 
 ## Ilustrasi
 
-Todo
+### Contoh Kasus 1
+
+Dylan dan Milya terpisah sejauh 5 meter. Dylan dapat berjalan dengan kecepatan 1
+meter/detik, naik ojek dengan kecepatan 2 meter/detik, atau naik angkot dengan
+kecepatan 3 meter/detik. Milya dapat berjalan mendekati Dylan dengan kecepatan 1
+meter/detik.
+
+Pada contoh tersebut, `S = 5`, `N = 3`, `V[1] = 1`, `V[2] = 2`, `V[3] = 3`,
+`U = 1​`.
+
+Kondisi Awal
+![Dylan Milya](img/dm1.png?raw=true)
+
+Pada detik pertama, misalkan Dylan berkendara sejauh 2 meter
+![Dylan Milya](img/dm2.png?raw=true)
+
+Kemudian detik kedua, Dylan berjalan sejauh 1 meter
+![Dylan Milya](img/dm3.png?raw=true)
+
+Pada ilustrasi di atas, detik kedua menunjukkan bahwa Dylan dan Milya bertemu
+pada titik yang sama, yaitu titik tiga. Cara yang ditempuh oleh Dylan untuk bisa
+mencapai titik tersebut adalah (2, 1) dibaca dua kemudian satu.
+
+Adapun dengan kondisi pada ilustrasi di atas, banyak cara yang dapat ditempuh
+Dylan untuk menemui Milya adalah **DUA**​ cara yaitu (1, 2) dan (2, 1).
+
+Dylan tidak akan berkendara sejauh 3 karena Ia tidak akan bertemu dengan Milya
+pada titik yang sama apabila Ia berkendara secepat itu.
+
+### Contoh Kasus 2
+
+Dylan dan Milya terpisah sejauh 12 meter. Dylan dapat berjalan dengan kecepatan
+1 meter/detik, naik ojek dengan kecepatan 3 meter/detik, atau naik angkot dengan
+kecepatan 4 meter/detik. Milya dapat berjalan mendekati Dylan dengan kecepatan 1
+meter/detik.
+
+Pada contoh tersebut, `S = 12`, `N = 3`, `V[1] = 1`, `V[2] = 3`, `V[3] = 4`,
+`U = 1`​.
+
+Ada **16** ​cara berbeda bagi Dylan untuk bisa menemui Milya pada titik yang sama.
+
+1. (1, 4, 4)
+   Dylan berjalan di detik pertama, kemudian naik angkot selama dua detik.
+   Cara ini dideskripsikan dalam visualisasi berikut.
+
+Kondisi Awal
+![Dylan Milya](img/dm4.png?raw=true)
+
+Pada detik pertama, misalkan Dylan berjalan sejauh 1 meter
+![Dylan Milya](img/dm5.png?raw=true)
+
+Kemudian detik kedua, Dylan berkendara sejauh 4 meter
+![Dylan Milya](img/dm6.png?raw=true)
+
+Kemudian detik ketiga, Dylan berkendara sejauh 4 meter
+![Dylan Milya](img/dm7.png?raw=true)
+
+Pada ilustrasi di atas, detik ketiga menunjukkan bahwa Dylan dan Milya bertemu
+pada titik yang sama, yaitu titik sembilan. Cara yang ditempuh oleh Dylan untuk
+bisa mencapai titik tersebut adalah (1, 4, 4) dibaca Dylan berjalan selama satu
+detik, kemudian naik angkot selama dua detik sampai bertemu Milya.
+
+Selain (1,4,4) Dylan juga bisa bertemu dengan Milya pada titik yang sama dengan
+langkah:
+
+2. (3, 3, 3)
+   Dylan naik ojek dengan kecepatan konstan 3 meter/detik. 3 detik kemudian
+   Dylan berhasil menemui Milya.
+
+3. (4, 1, 4)
+   Dylan naik angkot selama satu detik, kemudian berjalan selama satu detik
+   kemudian naik angkot selama satu detik hingga akhirnya Dylan berhasil menemui
+   Milya.
+
+4. (4, 4, 1)
+   Dylan naik angkot selama dua detik, kemudian dilanjutkan berjalan selama satu
+   detik hingga akhirnya Dylan berhasil menemui Milya.
+
+5. (1, 1, 3, 3)
+   Dylan naik berjalan selama dua detik selama dua detik, kemudian dilanjutkan
+   naik ojek selama dua detik hingga akhirnya Dylan berhasil menemui Milya.
+
+6. (1, 3, 1, 3)
+   Dylan berjalan selama satu detik, kemudian dilanjutkan naik ojek selama satu
+   detik, kemudian berjalan selama satu detik. Setelah itu Dylan naik ojek
+   selama satu detik hingga akhirnya Dylan berhasil menemui Milya.
+
+7. (1, 3, 3, 1)
+   Dylan berjalan di detik pertama, kemudian dilanjutkan dengan naik ojek di dua
+   detik berikutnya, lalu berjalan selama satu detik hingga akhirnya bertemu
+   dengan Milya.
+
+8. (3, 1, 1, 3)
+   Dylan naik ojek selama satu detik, kemudian dilanjutkan dengan berjalan
+   selama dua detik, lalu naik ojek selama satu detik hingga akhirnya bertemu
+   dengan Milya.
+
+9. (3, 1, 3, 1)
+   Dylan naik ojek selama satu detik, kemudian dilanjutkan dengan berjalan
+   selama satu detik, lalu naik ojek selama satu detik, kemudian dilanjutkan
+   dengan berjalan selama satu detik hingga akhirnya bertemu dengan Milya.
+
+10. (3, 3, 1, 1)
+    Dylan naik ojek selama dua detik, kemudian dilanjutkan dengan berjalan
+    selama dua detik hingga akhirnya bertemu dengan Milya.
+
+11. (1, 1, 1, 1, 3)
+    Dylan berjalan selama empat detik, kemudian dilanjutkan dengan naik ojek sampai menemui Milya.
+
+12. (1, 1, 1, 3, 1)
+    Dylan berjalan selama tiga detik, kemudian naik ojek selama satu detik, lalu
+    berjalan selama satu detik sampai menemui Milya.
+
+13. (1, 1, 3, 1, 1)
+    Dylan berjalan selama dua detik, kemudian naik ojek selama satu detik,
+    kemudian berjalan selama dua detik sampai menemui Milya.
+
+14. (1, 3, 1, 1, 1)
+    Dylan berjalan selama satu detik, kemudian naik ojek selama satu detik,
+    kemudian berjalan selama tiga detik sampai menemui Milya.
+
+15. (3, 1, 1, 1, 1)
+    Dylan naik ojek selama satu detik, kemudian berjalan selama empat detik
+    sampai menemui Milya.
+
+16. (1, 1, 1, 1, 1, 1)
+    Dylan berjalan selama enam detik sampai menemui Milya.
+
+Dari 16 cara yang dipaparkan di atas, waktu tempuh yang dibutuhkan oleh Dylan
+bervariasi. Ada cara yang membutuhkan waktu 3 detik (cara no 1 - 4), 4 detik
+(cara no 5 - 10), 5 detik (cara no 11 - 15), dan 6 detik (cara no 16).
+
+Jika Anda ingin membantu Dylan menemui Milya dalam waktu seminimal mungkin, cara
+yang diusulkan adalah cara no 1, 2, 3, atau 4.
 
 ## Definisi Problem
 
