@@ -42,6 +42,8 @@ penasaran dan ingin memodelkan beberapa hal, yaitu:
   **sehingga mereka bisa bertemu?**
 - **Berapa waktu minimal yang dapat ditempuh Dylan untuk bertemu Milya?**
 
+---
+
 ## Ilustrasi
 
 ### Contoh Kasus 1
@@ -179,6 +181,8 @@ bervariasi. Ada cara yang membutuhkan waktu 3 detik (cara no 1 - 4), 4 detik
 Jika Anda ingin membantu Dylan menemui Milya dalam waktu seminimal mungkin, cara
 yang diusulkan adalah cara no 1, 2, 3, atau 4.
 
+---
+
 ## Definisi Problem
 
 Setiap testcase mengandung salah satu dari dua permasalahan berikut :
@@ -214,6 +218,8 @@ Setiap testcase mengandung salah satu dari dua permasalahan berikut :
 Grading system di Aren akan menyediakan sejumlah test case dengan tingkat
 kesulitan beragam (Easy, Medium, Hard). Gambaran kasar: 80% testcase memiliki
 kesulitan Easy atau Medium, sisanya 20% kesulitan Hard.
+
+---
 
 ### Input Program
 
@@ -280,4 +286,118 @@ V[1] V[2] ... V[Y]
   dengan waktu minimal, cetak konfigurasi langkah dengan **leksikografis**
   **terkecil** (seperti yang dijelaskan pada bagian Definisi Problem)
 
-Todo : Contoh Masukan dan keluaran
+---
+
+### Contoh Masukan 1
+
+```text
+5 3 1
+1 2 3
+A
+```
+
+### Contoh Keluaran 1
+
+```text
+2
+```
+
+### Penjelasan Contoh 1
+
+Contoh sesuai dengan ilustrasi pertama yang telah dipaparkan sebelumnya.
+
+Karena `P = 'A'` maka cukup output banyaknya cara yang memungkinkan bagi Dylan
+untuk bertemu dengan Milya. Dalam hal ini, artinya cukup cetak '2'.
+
+---
+
+### Contoh Masukan 2
+
+```text
+12 3 1
+1 3 4
+B
+```
+
+### Contoh Keluaran 2
+
+```text
+3
+1 4 4
+```
+
+### Penjelasan Contoh 2
+
+Contoh ini sesuai dengan ilustrasi kedua yang telah dipaparkan sebelumnya.
+
+Dari keempat cara dengan waktu minimal yaitu : {(1,4,4), (4, 1, 4), (4, 4, 1),
+(3, 3, 3)}, program mencetak langkah (1,4,4) karena merupakan langkah dengan
+leksikografis terkecil.
+
+---
+
+### Contoh Masukan 3
+
+```text
+6 4 2
+1 2 3 4
+B
+```
+
+### Contoh Keluaran 3
+
+```text
+1
+4
+```
+
+### Penjelasan Contoh 3
+
+Karena ​ `P = 'B'` ​ maka kita perlu output waktu minimal yang dapat ditempuh
+Dylan untuk bisa bertemu dengan Milya di titik yang sama beserta variasi langkah
+yang digunakan dengan leksikografis terkecil. Untuk lebih rincinya adalah
+sebagai berikut:
+
+1. Pada detik 0, Dylan dan Milya terpisah sejarak 6 meter.
+2. Pada detik 1, misalkan Dylan berpindah sejarak 4 meter dan Milya berpindah
+   sejarak 2 meter.
+3. Ternyata, pada detik tersebut Dylan bertemu dengan Milya pada titik yang sama.
+4. Dengan langkah lain, Dylan bisa saja bertemu dengan Milya pada titik 2
+   apabila Ia berpindah dengan urutan (1, 1) yang terhitung sebagai 2 langkah.
+   Namun, itu bukan waktu minimal karena terdapat cara dimana Dylan dapat
+   bertemu dengan Milya hanya dengan 1 detik yaitu dengan langkah (4).
+
+---
+
+### Contoh Masukan 4
+
+```text
+6 1 3
+4
+A
+```
+
+### Contoh Keluaran 4
+
+```text
+0
+```
+
+### Contoh Masukan 5
+
+```text
+6 1 3
+4
+B
+```
+
+### Contoh Keluaran 5
+
+```text
+NA
+```
+
+### Penjelasan Contoh 4 dan 5
+
+Karena mereka tidak mungkin bertemu, sehingga output adalah '0' pada contoh
+masukan keempat dan 'NA' pada contoh masukan kelima.
