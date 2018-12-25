@@ -27,9 +27,9 @@ Siapapun yang ingin berkontribusi dipersilahkan.
 
 ### Tugas Pemrograman
 
-0. [Searching](https://github.com/gagahpangeran/sda-2018/tree/master/tugas-pemrograman/tp0)
-1. [Dylan dan Milya](https://github.com/gagahpangeran/sda-2018/tree/master/tugas-pemrograman/tp1)
-1. [Kalung](https://github.com/gagahpangeran/sda-2018/tree/master/tugas-pemrograman/tp2)
+0. [Searching](tugas-pemrograman/tp0/)
+1. [Dylan dan Milya](tugas-pemrograman/tp1/)
+1. [Kalung](tugas-pemrograman/tp2/)
 1. Eksplorasi the Abyss
 1. Gate to the Abyss
 
