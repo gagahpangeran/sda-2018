@@ -22,8 +22,9 @@ masa-masa indah ketika SMA. Hari yang ditunggu pun tiba, Dylan bersiap untuk
 menemui Milya di tempat yang mereka janjikan lima tahun silam. Ternyata, Milya
 telah tiba terlebih dahulu di tempat perjanjian. Karena terlambat, Dylan
 bergegas berangkat menuju Milya. Dylan dan Milya saat ini terpisah sejauh **S**
-**meter**​. Dylan berpindah dengan menggunakan salah satu dari **N transportasi**
-**yang ada tiap detiknya (waktu pergantian transportasi diabaikan)**​.
+**meter**​. Dylan berpindah dengan menggunakan salah satu dari
+**N transportasi yang ada tiap detiknya**
+(**waktu pergantian transportasi diabaikan**).
 Transportasi ke `i` memiliki kecepatan `V[i]` **meter/detik** ​ dan tiap
 transportasi memiliki kecepatan yang **unik**. Dylan meminta Milya untuk
 menunggu di tempat perjanjian. Namun, karena Milya tidak sabar untuk bisa
