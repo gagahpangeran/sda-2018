@@ -27,7 +27,7 @@ Siapapun yang ingin berkontribusi dipersilahkan.
 
 ### Tugas Pemrograman
 
-0. Searching
+0. [Searching](https://github.com/gagahpangeran/sda-2018/tree/master/tugas-pemrograman/tp0)
 1. Dylan dan Milya
 1. Kalung
 1. Eksplorasi the Abyss
