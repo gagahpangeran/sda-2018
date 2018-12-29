@@ -213,7 +213,13 @@ Nama penjelajah merupakan string tidak kosong dan hanya berisi huruf kapital
 
 ## Penjelasan Contoh 1
 
-Todo
+![Abyss](img/ab3.png?raw=true)
+
+![Abyss](img/ab4.png?raw=true)
+
+![Abyss](img/ab5.png?raw=true)
+
+![Abyss](img/ab6.png?raw=true)
 
 ---
 
