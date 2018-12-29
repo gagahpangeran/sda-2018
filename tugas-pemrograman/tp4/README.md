@@ -2,7 +2,7 @@
 
 ![Abyss](img/hl.png?raw=true)
 
-** Gambar 1. The Abyss**
+**Gambar 1. The Abyss**
 
 ( [​http://coolvibe.com/2012/illustration-into-the-abyss/](​http://coolvibe.com/2012/illustration-into-the-abyss/) )
 
