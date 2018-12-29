@@ -30,7 +30,7 @@ Siapapun yang ingin berkontribusi dipersilahkan.
 0. [Searching](tugas-pemrograman/tp0/)
 1. [Dylan dan Milya](tugas-pemrograman/tp1/)
 1. [Kalung](tugas-pemrograman/tp2/)
-1. Eksplorasi the Abyss
+1. [Eksplorasi the Abyss](tugas-pemrograman/tp3/)
 1. Gate to the Abyss
 
 ### Kuis Lab
