@@ -5,6 +5,7 @@
 - Batas memori program : 256 MB
 
 ![Abyss](img/ab1.png?raw=true)
+
 **Gambar 1. The Abyss**
 
 The Abyss adalah sebuah lubang raksasa yang ditemukan 1900 tahun lalu di sebuah
@@ -27,6 +28,7 @@ formasi penjelajahan yang linear, mereka suka dengan formasi berbentuk tree.
 Formasi tree yang mereka sukai pun punya aturan _yang sangat spesial sekali_.
 
 ![Abyss](img/ab2.png?raw=true)
+
 **Gambar 2. Formasi Penjelajahan. Jarak antara ODIN dengan sumber cahaya**
 **adalah 1 unit.**
 
@@ -77,8 +79,8 @@ lain, ia tidak akan bermasalah.
 The Abyss adalah tempat yang sangat berbahaya, sangat sering terjadi musibah
 pada ekspedisi. Ada banyak jenis musibah yang dapat terjadi, tetapi yang pasti,
 **apabila terjadi musibah, semua penjelajah yang berada di paling bawah, yaitu**
-**penjelajah yang tidak menggantung penjelajah lain, akan __terjatuh secara__**
-**__bersamaan__ dan tewas terbunuh.**
+**penjelajah yang tidak menggantung penjelajah lain, akan <u>terjatuh secara</u>**
+**<u>bersamaan</u> dan tewas terbunuh.**
 
 Karena Anda adalah seorang Black Whistles yang kebetulan juga seorang computer
 scientist, maka Anda lah yang ditugaskan untuk membuat sistem yang akan membantu
@@ -122,8 +124,8 @@ oleh penjelajah lain. Prioritas pengganti adalah **penjelajah lain yang**
 **digantung, secara langsung/tidak langsung, oleh penjelajah yang menyerah dan**
 **namanya bersebelahan dengan nama penjelajah yang menyerah apabila nama semua**
 **penjelajah diurutkan secara leksikografis**. Jika terdapat lebih dari satu
-kandidat, maka yang menggantikan posisinya adalah __penjelajah yang posisinya__
-__di barat penjelajah yang mengundurkan diri.__
+kandidat, maka yang menggantikan posisinya adalah <u>penjelajah yang posisinya</u>
+<u>di barat penjelajah yang mengundurkan diri.</u>
 
 Setelah penggantian posisi, formasi penjelajahan diseimbangkan kembali
 berdasarkan algoritma yang sebelumnya disebutkan. Dijamin penjelajah `X` yang
@@ -138,7 +140,7 @@ pengganti adalah **penjelajah lain yang digantung, secara**
 **langsung/tidak langsung, oleh penjelajah yang menyerah, dan namanya**
 **bersebelahan dengan nama penjelajah yang cedera apabila nama semua**
 **penjelajah diurutkan secara leksikografis.** **Jika terdapat lebih dari satu**
-**kandidat, maka yang menggantikan adalah yang posisinya __paling dalam__**
+**kandidat, maka yang menggantikan adalah yang posisinya <u>paling dalam</u>**
 **<sup>[2](#fn2)</sup>, dan jika kedalamannya sama, pilih yang posisinya**
 **lebih timur.**
 
@@ -157,7 +159,7 @@ sample case. Dijamin total nama penjelajah yang di-output-kan dari seluruh query
 
 ### MUSIBAH
 
-Output __semua nama__ penjelajah yang tewas akibat musibah, terurut secara
+Output <u>semua nama</u> penjelajah yang tewas akibat musibah, terurut secara
 leksikografs. Musibah tidak mungkin terjadi apabila tidak ada penjelajah yang
 sedang menjelajahi The Abyss. Setiap nama penjelajah diakhiri oleh semicolon
 (;), tanpa ada spasi. Silakan lihat sample case.
