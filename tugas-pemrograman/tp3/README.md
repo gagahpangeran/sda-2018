@@ -244,7 +244,14 @@ Nama penjelajah merupakan string tidak kosong dan hanya berisi huruf kapital
 
 ## Penjelasan Contoh 2
 
-Todo
+![Abyss](img/ab7.png?raw=true)
+![Abyss](img/ab8.png?raw=true)
+
+![Abyss](img/ab9.png?raw=true)
+![Abyss](img/ab10.png?raw=true)
+
+![Abyss](img/ab11.png?raw=true)
+![Abyss](img/ab12.png?raw=true)
 
 ---
 
